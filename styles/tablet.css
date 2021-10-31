@@ -42,9 +42,11 @@ main {
 /* Main references changes */
 .main-reference {
     margin: 40px 0 0 0;
-    width: 100%;
+    width: 90%;
+    margin: 0 auto;
 }
 /* Wildcards */
 .main-reference-container {
+    margin-top: 15px;
     display: flex;
 }
