@@ -1,0 +1,160 @@
+:root {
+    --just-magenta: hsl(300, 43%, 22%);
+    --soft-pink: hsl(333, 80%, 67%);
+    --deep-blue: hsl(228, 45%, 44%);
+    --dgrayish-magenta: hsl(303, 10%, 53%);
+    --lgrayish-magenta: hsl(300, 24%, 96%);
+    --white: hsl(0, 0%, 100%);
+}
+/* General Styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+}
+/* Variable Control */
+main {
+    width: 100%;
+    height: 100%;
+    background-color: var(--white);
+}
+main .main-head {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+}
+.main-head-title {
+    width: 100%;
+    height: auto;
+    margin-top: 45px;
+    margin-bottom: 45px;
+    text-align: center;
+}
+.main-head-title h1 {
+    width: 70%;
+    margin: 0 auto;
+    font-size: 3.2rem;
+    line-height: 3.5rem;
+    font-weight: bolder;
+    color: var(--just-magenta);
+}
+.main-head-title p {
+    margin-top: 25px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: var(--dgrayish-magenta);
+}
+
+/* Main Rated */
+.main-head-rate {
+    min-width: 180px;
+    max-width: 320px;
+    text-align: center;
+    margin: 0 auto;
+}
+.main-head-rate .stars {
+    margin-bottom: 5px;
+}
+.main-head-rate span {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-image: url(../images/icon-star.svg);
+    background-repeat:no-repeat;
+    background-size:auto;
+}
+.main-head-rate p {
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    font-weight: bold;
+    color: var(--just-magenta);
+}
+.head-rate__two, .head-rate__three {
+    margin-top: 25px;
+}
+/* Main references */
+.main-reference {
+    width: 90%;
+    height: auto;
+    margin: 40px auto 0 auto;
+}
+.main-reference-container {
+    margin: 0 auto;
+    /* text-align: center; */
+}
+.reference-card {
+    width: 280px;
+    height: auto;
+    margin: 0 auto 15px auto;
+    background-color: var(--just-magenta);
+    padding: 25px;
+    border: 1px var(--just-magenta);
+    border-radius: 10px;
+}
+.card-pic__colton {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-image: url('../images/image-colton.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.card-pic__irene {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-image: url('../images/image-irene.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.card-pic__anne {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-image: url('../images/image-anne.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.reference-card__title {
+    height: 35px;
+    width: auto;
+    vertical-align: text-bottom; /* Esto es MAGIA */
+    display: inline-block;
+    margin-left: 15px;
+}
+.reference-card__title h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 1.8rem;
+    color: var(--white);
+    text-align: start;
+}
+.reference-card__title p {
+    color: var(--lgrayish-magenta);
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+.references-card__comment {
+    margin-top: 10px;
+    font-size: 1.3rem;
+    color: var(--white);
+}
+.attribution {
+    width: 250px;
+    position: relative;
+    bottom: 0;
+    left: calc(50% - 125px);
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+.attribution a {
+    color: var(--deep-blue);
+}
