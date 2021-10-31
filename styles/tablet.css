@@ -1,0 +1,50 @@
+/* Initial Changes */
+main {
+    padding: 40px 20px 40px 20px;
+}
+/* Head changes */
+/* Title changes */
+.main-head {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+    /* margin: 0; */
+}
+.main-head-title {
+    width: 50%;
+    text-align: left;
+}
+.main-head-title h1 {
+    margin: 0;
+    text-align: left;
+}
+/* Head rate changes */
+.main-head-rate {
+    padding-top: 45px;
+}
+.head-rate__one {
+    margin-left: 5px;
+}
+.head-rate__two {
+    margin-left: 15px;
+}
+.head-rate__three {
+    margin-left: 30px;
+}
+.head-rate__one, .head-rate__two, .head-rate__three {
+    display: flex;
+    padding-top: 25px;
+}
+.head-rate__one p, .head-rate__two p, .head-rate__three p {
+    margin-left: 20px;
+}
+/* Main references changes */
+.main-reference {
+    margin: 40px 0 0 0;
+    width: 100%;
+}
+/* Wildcards */
+.main-reference-container {
+    display: flex;
+}
